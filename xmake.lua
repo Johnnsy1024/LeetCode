@@ -12,6 +12,9 @@ target("35")
 target("34")
     set_kind("binary")
     add_files("src/34.在排序数组中查找元素的第一个和最后一个位置.cpp")
+target("69")
+    set_kind("binary")
+    add_files("src/69.x-的平方根.cpp")
 --
 -- If you want to known more usage about xmake, please see https://xmake.io
 --
