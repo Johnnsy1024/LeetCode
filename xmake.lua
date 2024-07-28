@@ -2,7 +2,16 @@ add_rules("mode.debug", "mode.release")
 
 target("27")
     set_kind("binary")
-    add_files("src/27.移除元素.cpp")    
+    add_files("src/27.移除元素.cpp")  
+target("704")
+    set_kind("binary")
+    add_files("src/704.二分查找.cpp")
+target("35")
+    set_kind("binary")
+    add_files("src/35.搜索插入位置.cpp")
+target("34")
+    set_kind("binary")
+    add_files("src/34.在排序数组中查找元素的第一个和最后一个位置.cpp")
 --
 -- If you want to known more usage about xmake, please see https://xmake.io
 --

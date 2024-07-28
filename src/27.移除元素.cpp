@@ -3,7 +3,7 @@
  *
  * [27] 移除元素
  */
-
+extern int apppp;
 // @lc code=start
 #include <iostream>
 #include <vector>
