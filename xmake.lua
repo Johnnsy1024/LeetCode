@@ -1,5 +1,6 @@
 add_rules("mode.debug", "mode.release")
 
+set_languages("c++17")
 target("27")
     set_kind("binary")
     add_files("src/27.移除元素.cpp")  
@@ -15,6 +16,9 @@ target("34")
 target("69")
     set_kind("binary")
     add_files("src/69.x-的平方根.cpp")
+target("209")
+    set_kind("binary")
+    add_files("src/209.长度最小的子数组.cpp")
 --
 -- If you want to known more usage about xmake, please see https://xmake.io
 --
