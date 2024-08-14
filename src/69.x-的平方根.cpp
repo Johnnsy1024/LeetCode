@@ -1,10 +1,3 @@
-/*
- * @lc app=leetcode.cn id=69 lang=cpp
- *
- * [69] x 的平方根 
- */
-
-// @lc code=start
 #include <iostream>
 class Solution {
 public:
@@ -29,7 +22,6 @@ public:
         return left;
     }
 };
-// @lc code=end
 
 int main()
 {

@@ -1,14 +1,8 @@
-/*
- * @lc app=leetcode.cn id=209 lang=cpp
- *
- * [209] 长度最小的子数组
- */
 #include <climits>
 #include <iostream>
 #include <vector>
 using namespace std;
 
-// @lc code=start
 class Solution {
 public:
     int minSubArrayLen(int target, vector<int>& nums)
@@ -29,7 +23,7 @@ public:
         return res < INT_MAX ? res : 0;
     }
 };
-// @lc code=end
+
 int main()
 {
     Solution s;

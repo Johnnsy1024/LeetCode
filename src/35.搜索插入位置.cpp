@@ -1,10 +1,4 @@
-/*
- * @lc app=leetcode.cn id=35 lang=cpp
- *
- * [35] 搜索插入位置
- */
-
-// @lc code=start
+#include <iostream>
 #include <vector>
 class Solution {
 public:
@@ -25,4 +19,12 @@ public:
         return left;
     }
 };
-// @lc code=end
+
+int main()
+{
+    Solution s;
+    std::vector<int> nums = { 1, 3, 5, 6 };
+    int target = 3;
+    int res = s.searchInsert(nums, target);
+    std::cout << res << std::endl;
+}

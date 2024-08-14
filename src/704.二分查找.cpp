@@ -1,10 +1,4 @@
-/*
- * @lc app=leetcode.cn id=704 lang=cpp
- *
- * [704] 二分查找
- */
-
-// @lc code=start
+#include <iostream>
 #include <vector>
 class Solution {
 public:
@@ -26,4 +20,11 @@ public:
         return -1;
     }
 };
-// @lc code=end
+
+int main()
+{
+    Solution s;
+    std::vector<int> nums = { 1, 2, 3, 4 };
+    int res = s.search(nums, 4);
+    std::cout << res << std::endl;
+}

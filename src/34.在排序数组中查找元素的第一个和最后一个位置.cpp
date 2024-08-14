@@ -1,10 +1,3 @@
-/*
- * @lc app=leetcode.cn id=34 lang=cpp
- *
- * [34] 在排序数组中查找元素的第一个和最后一个位置
- */
-
-// @lc code=start
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -36,7 +29,7 @@ private:
                 right = middle - 1;
             } else if (nums[middle] < target) {
                 left = middle + 1;
-            } else { //当middle对应着target的时候，由于是寻找右边界，所以给left+1，然后将left赋值给rightBorder
+            } else { // 当middle对应着target的时候，由于是寻找右边界，所以给left+1，然后将left赋值给rightBorder
                 left = middle + 1;
                 rightBorder = left - 1;
             }
@@ -62,7 +55,6 @@ private:
         return leftBorder;
     }
 };
-// @lc code=end
 
 int main()
 {

@@ -1,9 +1,3 @@
-/*
- * @lc app=leetcode.cn id=27 lang=cpp
- *
- * [27] 移除元素
- */
-extern int apppp;
 // @lc code=start
 #include <iostream>
 #include <vector>
@@ -25,7 +19,6 @@ public:
         return slow;
     }
 };
-// @lc code=end
 
 int main()
 {
