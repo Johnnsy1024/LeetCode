@@ -1,4 +1,3 @@
-// @lc code=start
 #include <iostream>
 #include <vector>
 class Solution {
