@@ -22,6 +22,9 @@ target("209")
 target("59")
     set_kind("binary")
     add_files("src/数组/59.螺旋矩阵-ii.cpp")
+target("54")
+    set_kind("binary")
+    add_files("src/数组/54.螺旋数组.cpp")
 --
 -- If you want to known more usage about xmake, please see https://xmake.io
 --
