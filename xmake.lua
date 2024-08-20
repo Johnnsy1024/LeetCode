@@ -25,6 +25,9 @@ target("59")
 target("54")
     set_kind("binary")
     add_files("src/数组/54.螺旋数组.cpp")
+target("58")
+    set_kind("binary")
+    add_files("src/数组/58.区间和(karmal).cpp")
 --
 -- If you want to known more usage about xmake, please see https://xmake.io
 --
