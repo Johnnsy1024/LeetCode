@@ -17,6 +17,7 @@ struct ListNode
 };
 class Solution
 {
+
   public:
     ListNode *swapPairs(ListNode *head)
     {
@@ -27,10 +28,28 @@ class Solution
         ListNode *prev = head;
         ListNode *cur = head->next;
         ListNode *next = head->next->next;
-
         cur->next = prev;
         prev->next = swapPairs(next);
         return cur;
+    }
+
+    ListNode *swapPair2(ListNode *head)
+    {
+        ListNode *dummy = new ListNode(0);
+        dummy->next = head;
+        ListNode *temp = dummy;
+        while (temp->next != nullptr && temp->next->next != nullptr)
+        {
+            ListNode *node1 = temp->next;
+            ListNode *node2 = temp->next->next;
+            temp->next = node2;
+            node1->next = node2->next;
+            node2->next = node1;
+            temp = node1;
+        }
+        ListNode *res = dummy->next;
+        delete dummy;
+        return res;
     }
 };
 
